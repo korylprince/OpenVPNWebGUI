@@ -1,0 +1,7 @@
+Linux OpenVPN Readme
+
+1. Run "sudo apt-get install openvpn resolvconf"
+2. Copy all the files from the zip (files not the folder) to /etc/openvpn
+3. Run "sudo /etc/init.d/openvpn restart" or restart your computer to connect
+4. You should be connected after a few seconds. This will only work while you are connected to the Internet outside the district, and will not work very well on a slow connection.
+5. The client will automatically connect on startup. To stop this run "sudo update-rc.d -f openvpn remove" You will have to run "sudo /etc/init.d/openvpn start" to connect
