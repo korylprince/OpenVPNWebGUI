@@ -1,4 +1,4 @@
-<?#Copyright Kory Prince 2011
+<?php
 /* Get data from POST */
 if(!isset($_GET['sessionID'])) {
     $returnArray = array('login'=>'Error', 'errorCode'=>1);

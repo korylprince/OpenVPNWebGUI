@@ -1,5 +1,4 @@
 <?php
-#Copyright Kory Prince 2011
 /* Get data from POST */
 if(!isset($_POST['jsondata']['data']['sessionID'])) {
     $returnArray = array('login'=>'Error', 'errorCode'=>1);
