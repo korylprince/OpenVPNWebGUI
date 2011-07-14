@@ -34,7 +34,7 @@
       //Try authenticating
       if (@ldap_bind($ad_connection, $username . '@' . $options['ldap_ad_domain'], $password)) {
           //If data is needed, get it
-          if (isset($options['ldap_data']) || isset($options['ldap_ad_allowed_groups']) || isset($options['ldap_ad_disallowed_groups'])) {
+          if (isset($options['ldap_ad_data']) || isset($options['ldap_ad_allowed_groups']) || isset($options['ldap_ad_disallowed_groups'])) {
               $filter = 'userPrincipalName=' . $username . '@' . $options['ldap_ad_domain'];
               $dc = explode('.', $options['ldap_ad_domain']);
               //convert example.com to dc=example,dc=com
