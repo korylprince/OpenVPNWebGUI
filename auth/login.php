@@ -1,4 +1,4 @@
-<?#Copyright Kory Prince 2011
+<?php
 /* Get data from POST */
 $postVariable = 'jsondata';
 if (!isset($_POST[$postVariable])){dieWithError('postVarible does not exist!',1);}
