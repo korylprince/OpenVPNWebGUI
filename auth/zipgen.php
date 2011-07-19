@@ -100,6 +100,7 @@ resolv-retry infinite
 nobind
 
 keepalive 10 120
+explicit-exit-notify 2
 
 persist-key
 persist-tun
