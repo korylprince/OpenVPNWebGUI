@@ -12,7 +12,7 @@ This should work on any recent version of Ubuntu/Debian. You should be able to m
 If you are using a different authentication method, you may need something more. Check the PHPAuth requirements here:
 https://github.com/korylprince/PHPAuth
 
-Simply copy the OpenVPNWebGUI folder to your web directory and rename to "vpn". Then edit auth/options for authentication options.
+Simply copy the OpenVPNWebGUI folder to your web directory and rename to "vpn". Then edit copy auth/options.php.def to auth/options.php and edit it for authentication options.
 Make sure to restrict access to the files folder. Do this either in the server configuration or in an .htaccess file. Otherwise users can just download certificates from your server.
 Also make sure your restrict access to auth/users.list
 
