@@ -3,7 +3,7 @@
   {
       //Make sure that session is done first.
       if (in_array('session', $types)) {
-          $types = array_unique(array_merge(array('session'), $types));
+          $types = array_values(array_unique(array_merge(array('session'), $types)));
       }
       //Set the default auths location if not set
       if (!isset($options['auths_location'])) {
