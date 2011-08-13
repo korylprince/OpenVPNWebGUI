@@ -19,7 +19,7 @@
           if (!file_exists($options['auths_location'] . 'auth_' . $types[$i] . '.php')) {
               return array('Login' => 'Error', 'errorCode' => 1, 'errorString' => 'Authentication Library does not exist!');
           }
-          include($options['auths_location'] . 'auth_' . $types[$i] . '.php');
+          require($options['auths_location'] . 'auth_' . $types[$i] . '.php');
           //Call the library function
           $authReturnArray = call_user_func($types[$i] . '_auth', $username, $password, $options);
           //If username or password was stored it is now given back.
