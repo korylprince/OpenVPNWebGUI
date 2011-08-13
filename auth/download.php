@@ -7,8 +7,8 @@ if(!isset($_GET['sessionID'])) {
 else {
     $options['sessionID'] = $_GET['sessionID'];
 }
-require_once('options.php');
-include('authlib.php');
+require('options.php');
+require('authlib.php');
 $login = authenticate(null,null,$types,$options);
 //echo json_encode($login);return 0;//debug
 if(isset($login['flags'])){

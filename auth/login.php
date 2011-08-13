@@ -7,8 +7,8 @@ if (!isset($postData['username'])){dieWithError('username does not exist!',2);}
 if (!isset($postData['password'])){dieWithError('password does not exist!',3);}
 $username = $postData['username'];
 $password = $postData['password'];
-require_once('options.php');
-include('authlib.php');
+require('options.php');
+require('authlib.php');
 $login = authenticate($username,$password,$types,$options);
 //echo json_encode($login);return True;//debug
 $return['login'] = $login['Login'];

@@ -7,8 +7,8 @@ if(!isset($_POST['jsondata']['data']['sessionID'])) {
 else {
     $options['sessionID'] = $_POST['jsondata']['data']['sessionID'];
 }
-require_once('options.php');
-include('authlib.php');
+require('options.php');
+require('authlib.php');
 $login = authenticate(null,null,$types,$options);
 //echo json_encode($login);return 0;//debug
 if($login['Login'] != 'True'){
