@@ -9,8 +9,8 @@ https://github.com/korylprince/OpenVPNWebGUI
 
 This was installed on a server running Ubuntu 10.04.
 This should work on any recent version of Ubuntu/Debian. You should be able to make this work on any machine with a webserver,PHP and OpenVPN, but you may have to change paths in auth/zipgen.php and auth/download.php
-If you are using a different authentication method, you may need something more. Check the PHPAuth requirements here:
-https://github.com/korylprince/PHPAuth
+If you are using a different authentication method, you may need something more. Check the KAuth requirements here:
+https://github.com/korylprince/KAuth
 
 Simply copy the OpenVPNWebGUI folder to your web directory and rename to "vpn". Then edit copy auth/options.php.def to auth/options.php and edit it for authentication options.
 Make sure to restrict access to the files folder. Do this either in the server configuration or in an .htaccess file. Otherwise users can just download certificates from your server.
@@ -35,8 +35,8 @@ It is recommended you set this up with a ldap server so that users can authentic
 
 I realize this README is lacking. It is simply presented as-is. I will be glad to help you set it up (see email below.)
 
-This builds upon the "PHPAuth" Library:
-https://github.com/korylprince/PHPAuth
+This builds upon the "KAuth" Library:
+https://github.com/korylprince/KAuth
 The authentication can be extend using that library. Note: sessions must be used.
 
 ###########################
