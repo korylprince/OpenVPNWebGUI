@@ -1,2 +1,4 @@
-auth/options
+auth/options.php
 files/tmp
+files/keys/ta.key
+files/keys/ca.crt
