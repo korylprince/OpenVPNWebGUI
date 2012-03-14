@@ -11,6 +11,8 @@ https://github.com/korylprince/KAuth
 
 Simply copy the OpenVPNWebGUI folder to your web directory and rename to "vpn". Then edit copy auth/options.php.def to auth/options.php and edit it for authentication options.
 
+To enable administrator login, copy auth/users.list.def to auth/users.list. You can use auth/mkpasswd.php to change the password. See https://github.com/korylprince/KAuth for usage.
+
 Make sure to restrict access to the files folder. Do this either in the server configuration or in an .htaccess file. Otherwise users can just download certificates from your server.
 Also make sure your restrict access to auth/users.list
 
@@ -25,7 +27,7 @@ https://github.com/korylprince/OpenVPNWebGUI/issues
 
 #Usage#
 
-By default you can login using the default login is administrator with password "password".
+By default you can login using the default login is administrator with password "admin".
 This will log you into the admin interface where you can generate any certificate. All other usernames will be presented with an OS chooser interface.
 
 It is recommended you set this up with a ldap server so that users can authenticate with their ldap logins.
