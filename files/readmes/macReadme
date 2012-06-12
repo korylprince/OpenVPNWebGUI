@@ -12,10 +12,9 @@ OS X OpenVPN Readme
 10. Click Done.
 11. If asked if you want to check for updates, click Don't check.
 12. You will see the tunnelblick icon in the top right corner (it looks like a subway tunnel.) Click it then click on details.
-13. In the window that appears, Click on the box that mentions "nameserver" and make sure it is set to "Set nameserver (3.0b10)."
-14. Check the box "Automatically Connect" if you wish for the VPN to connect every time you log in. (This is not recommended.)
-15. Exit out of the window and click on the tunnelblick icon again.
-16. This time click Connect bullardisd to connect to the VPN. 
-17. You may have to enter your password again.
-18. You may see a box that says "No 'dev tun' or 'dev tap' found." Click the check box that says do not warn again and click okay.
-19. You should be connected after a few seconds. This will only work while you are connected to the Internet outside the district, and will not work very well on a slow connection.
+13. Check the box "Automatically Connect" if you wish for the VPN to connect every time you log in. (This is not recommended.)
+14. Exit out of the window and click on the tunnelblick icon again.
+15. This time click Connect bullardisd to connect to the VPN. 
+16. You may have to enter your password again.
+17. You may see a box that says "No 'dev tun' or 'dev tap' found." Click the check box that says do not warn again and click okay.
+18. You should be connected after a few seconds. This will only work while you are connected to the Internet outside the district, and will not work very well on a slow connection.

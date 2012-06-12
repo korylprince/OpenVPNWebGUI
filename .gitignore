@@ -1,4 +1,6 @@
 auth/options.php
+auth/users.list
 files/tmp
 files/keys/ta.key
 files/keys/ca.crt
+files/clients
